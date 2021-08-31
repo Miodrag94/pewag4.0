@@ -36,7 +36,7 @@ struct ContentView: View {
                         Button(action: {
                             
                         }, label: {
-                            Text("Forgot pwd?")
+                            Text("Forgot password?")
                             
                         })
                     }
