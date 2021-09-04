@@ -76,12 +76,30 @@ struct ContentView: View {
                                 .foregroundColor(Color.red)
                         }
                     }
+                    
+                    
                 }
                 .padding()
+                
             }
             .padding(.vertical, 110.0)
             
-            
+            HStack{
+                Button(action: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/{}/*@END_MENU_TOKEN@*/) {
+                    Image("eng_flag")
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        .frame(width: 30, height: 30)
+                }
+                Button(action: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/{}/*@END_MENU_TOKEN@*/) {
+                    Image("ger_flag1")
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        .frame(width: 30, height: 30)
+                        
+                }
+                .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
+            }.padding(.top, 650.0)
         }
     }
 }
