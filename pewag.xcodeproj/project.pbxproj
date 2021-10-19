@@ -3,23 +3,41 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		420C942427184401005F82C9 /* NavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420C942327184401005F82C9 /* NavigationBarView.swift */; };
+		4220FDEC26EE624E00479EC7 /* LogInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4220FDEB26EE624E00479EC7 /* LogInView.swift */; };
+		4220FDEE26EE67FB00479EC7 /* LogOutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4220FDED26EE67FB00479EC7 /* LogOutView.swift */; };
+		4220FDF126EF70EB00479EC7 /* PBKDF2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4220FDF026EF70EB00479EC7 /* PBKDF2.swift */; };
 		424A33D726DE60FD0017C117 /* pewagApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424A33D626DE60FD0017C117 /* pewagApp.swift */; };
 		424A33D926DE60FD0017C117 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424A33D826DE60FD0017C117 /* ContentView.swift */; };
 		424A33DB26DE60FE0017C117 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 424A33DA26DE60FE0017C117 /* Assets.xcassets */; };
 		424A33DE26DE60FE0017C117 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 424A33DD26DE60FE0017C117 /* Preview Assets.xcassets */; };
+		42722F0D2713206A006490B0 /* FacebookLogin in Frameworks */ = {isa = PBXBuildFile; productRef = 42722F0C2713206A006490B0 /* FacebookLogin */; };
+		42722F112713367F006490B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42722F102713367F006490B0 /* AppDelegate.swift */; };
+		427496B426EA7E0000C1907C /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 427496B326EA7E0000C1907C /* Webservice.swift */; };
+		427496B626EA862200C1907C /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 427496B526EA862200C1907C /* LoginViewModel.swift */; };
+		42A8600526F8FC05007BE025 /* LogFull.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A8600426F8FC05007BE025 /* LogFull.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		420C942327184401005F82C9 /* NavigationBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarView.swift; sourceTree = "<group>"; };
+		4220FDEB26EE624E00479EC7 /* LogInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInView.swift; sourceTree = "<group>"; };
+		4220FDED26EE67FB00479EC7 /* LogOutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogOutView.swift; sourceTree = "<group>"; };
+		4220FDEF26EF704600479EC7 /* PBKDF2-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PBKDF2-Bridging-Header.h"; sourceTree = "<group>"; };
+		4220FDF026EF70EB00479EC7 /* PBKDF2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PBKDF2.swift; sourceTree = "<group>"; };
 		424A33D326DE60FD0017C117 /* pewag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pewag.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		424A33D626DE60FD0017C117 /* pewagApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pewagApp.swift; sourceTree = "<group>"; };
 		424A33D826DE60FD0017C117 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		424A33DA26DE60FE0017C117 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		424A33DD26DE60FE0017C117 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		424A33DF26DE60FE0017C117 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42722F102713367F006490B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		427496B326EA7E0000C1907C /* Webservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
+		427496B526EA862200C1907C /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		42A8600426F8FC05007BE025 /* LogFull.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogFull.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42722F0D2713206A006490B0 /* FacebookLogin in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +57,7 @@
 			children = (
 				424A33D526DE60FD0017C117 /* pewag */,
 				424A33D426DE60FD0017C117 /* Products */,
+				42722F0B2713206A006490B0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -53,10 +73,19 @@
 			isa = PBXGroup;
 			children = (
 				424A33D626DE60FD0017C117 /* pewagApp.swift */,
+				4220FDED26EE67FB00479EC7 /* LogOutView.swift */,
+				42A8600426F8FC05007BE025 /* LogFull.swift */,
 				424A33D826DE60FD0017C117 /* ContentView.swift */,
+				4220FDF026EF70EB00479EC7 /* PBKDF2.swift */,
+				4220FDEB26EE624E00479EC7 /* LogInView.swift */,
+				427496B526EA862200C1907C /* LoginViewModel.swift */,
+				427496B326EA7E0000C1907C /* Webservice.swift */,
+				4220FDEF26EF704600479EC7 /* PBKDF2-Bridging-Header.h */,
 				424A33DA26DE60FE0017C117 /* Assets.xcassets */,
 				424A33DF26DE60FE0017C117 /* Info.plist */,
 				424A33DC26DE60FE0017C117 /* Preview Content */,
+				42722F102713367F006490B0 /* AppDelegate.swift */,
+				420C942327184401005F82C9 /* NavigationBarView.swift */,
 			);
 			path = pewag;
 			sourceTree = "<group>";
@@ -67,6 +96,13 @@
 				424A33DD26DE60FE0017C117 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		42722F0B2713206A006490B0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -85,6 +121,9 @@
 			dependencies = (
 			);
 			name = pewag;
+			packageProductDependencies = (
+				42722F0C2713206A006490B0 /* FacebookLogin */,
+			);
 			productName = pewag;
 			productReference = 424A33D326DE60FD0017C117 /* pewag.app */;
 			productType = "com.apple.product-type.application";
@@ -112,6 +151,9 @@
 				Base,
 			);
 			mainGroup = 424A33CA26DE60FD0017C117;
+			packageReferences = (
+				42722EE3271053E4006490B0 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */,
+			);
 			productRefGroup = 424A33D426DE60FD0017C117 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,8 +180,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42A8600526F8FC05007BE025 /* LogFull.swift in Sources */,
+				4220FDEC26EE624E00479EC7 /* LogInView.swift in Sources */,
+				420C942427184401005F82C9 /* NavigationBarView.swift in Sources */,
+				427496B626EA862200C1907C /* LoginViewModel.swift in Sources */,
+				42722F112713367F006490B0 /* AppDelegate.swift in Sources */,
+				4220FDEE26EE67FB00479EC7 /* LogOutView.swift in Sources */,
 				424A33D926DE60FD0017C117 /* ContentView.swift in Sources */,
 				424A33D726DE60FD0017C117 /* pewagApp.swift in Sources */,
+				427496B426EA7E0000C1907C /* Webservice.swift in Sources */,
+				4220FDF126EF70EB00479EC7 /* PBKDF2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,16 +322,16 @@
 				DEVELOPMENT_TEAM = 5G42YX6373;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = pewag/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1;
-				PRODUCT_BUNDLE_IDENTIFIER = pewag40.pewag;
+				MARKETING_VERSION = 1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = pewag400.pewag;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -295,16 +345,16 @@
 				DEVELOPMENT_TEAM = 5G42YX6373;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = pewag/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1;
-				PRODUCT_BUNDLE_IDENTIFIER = pewag40.pewag;
+				MARKETING_VERSION = 1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = pewag400.pewag;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -330,6 +380,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		42722EE3271053E4006490B0 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/facebook/facebook-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		42722F0C2713206A006490B0 /* FacebookLogin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 42722EE3271053E4006490B0 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookLogin;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 424A33CB26DE60FD0017C117 /* Project object */;
 }
