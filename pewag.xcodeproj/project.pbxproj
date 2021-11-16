@@ -8,9 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		420C942427184401005F82C9 /* NavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420C942327184401005F82C9 /* NavigationBarView.swift */; };
+		42104ACF273A99AA00A9ECD2 /* CustomersDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42104ACE273A99AA00A9ECD2 /* CustomersDetailView.swift */; };
+		42104AD1273AA08100A9ECD2 /* OrdersDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42104AD0273AA08100A9ECD2 /* OrdersDetailView.swift */; };
+		42104AD3273AA94300A9ECD2 /* CertificatesDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42104AD2273AA94300A9ECD2 /* CertificatesDetailView.swift */; };
+		42104AD5273AB42800A9ECD2 /* AssCertificatesDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42104AD4273AB42800A9ECD2 /* AssCertificatesDetailView.swift */; };
 		4220FDEC26EE624E00479EC7 /* LogInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4220FDEB26EE624E00479EC7 /* LogInView.swift */; };
 		4220FDEE26EE67FB00479EC7 /* LogOutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4220FDED26EE67FB00479EC7 /* LogOutView.swift */; };
 		4220FDF126EF70EB00479EC7 /* PBKDF2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4220FDF026EF70EB00479EC7 /* PBKDF2.swift */; };
+		422DA1C12731832A00EC5359 /* ModelResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422DA1C02731832A00EC5359 /* ModelResponse.swift */; };
+		42390FF72726E71700A52804 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42390FF62726E71700A52804 /* Home.swift */; };
+		42390FF92726E77200A52804 /* SideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42390FF82726E77200A52804 /* SideMenu.swift */; };
+		42390FFB2726E7B100A52804 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42390FFA2726E7B100A52804 /* BaseView.swift */; };
+		4243B63327351C8D00C952ED /* CompanyDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4243B63227351C8D00C952ED /* CompanyDetailView.swift */; };
 		424A33D726DE60FD0017C117 /* pewagApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424A33D626DE60FD0017C117 /* pewagApp.swift */; };
 		424A33D926DE60FD0017C117 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424A33D826DE60FD0017C117 /* ContentView.swift */; };
 		424A33DB26DE60FE0017C117 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 424A33DA26DE60FE0017C117 /* Assets.xcassets */; };
@@ -19,15 +28,27 @@
 		42722F112713367F006490B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42722F102713367F006490B0 /* AppDelegate.swift */; };
 		427496B426EA7E0000C1907C /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 427496B326EA7E0000C1907C /* Webservice.swift */; };
 		427496B626EA862200C1907C /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 427496B526EA862200C1907C /* LoginViewModel.swift */; };
+		4281117D273D3B1E002A2849 /* CodeScanner in Frameworks */ = {isa = PBXBuildFile; productRef = 4281117C273D3B1E002A2849 /* CodeScanner */; };
+		4281117F273D44C2002A2849 /* CodeScanningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4281117E273D44C2002A2849 /* CodeScanningView.swift */; };
 		42A8600526F8FC05007BE025 /* LogFull.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A8600426F8FC05007BE025 /* LogFull.swift */; };
+		42E9B151272AC73C005DD1DE /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 42E9B153272AC73C005DD1DE /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		420C942327184401005F82C9 /* NavigationBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarView.swift; sourceTree = "<group>"; };
+		42104ACE273A99AA00A9ECD2 /* CustomersDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomersDetailView.swift; sourceTree = "<group>"; };
+		42104AD0273AA08100A9ECD2 /* OrdersDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersDetailView.swift; sourceTree = "<group>"; };
+		42104AD2273AA94300A9ECD2 /* CertificatesDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CertificatesDetailView.swift; sourceTree = "<group>"; };
+		42104AD4273AB42800A9ECD2 /* AssCertificatesDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssCertificatesDetailView.swift; sourceTree = "<group>"; };
 		4220FDEB26EE624E00479EC7 /* LogInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInView.swift; sourceTree = "<group>"; };
 		4220FDED26EE67FB00479EC7 /* LogOutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogOutView.swift; sourceTree = "<group>"; };
 		4220FDEF26EF704600479EC7 /* PBKDF2-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PBKDF2-Bridging-Header.h"; sourceTree = "<group>"; };
 		4220FDF026EF70EB00479EC7 /* PBKDF2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PBKDF2.swift; sourceTree = "<group>"; };
+		422DA1C02731832A00EC5359 /* ModelResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelResponse.swift; sourceTree = "<group>"; };
+		42390FF62726E71700A52804 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		42390FF82726E77200A52804 /* SideMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenu.swift; sourceTree = "<group>"; };
+		42390FFA2726E7B100A52804 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		4243B63227351C8D00C952ED /* CompanyDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyDetailView.swift; sourceTree = "<group>"; };
 		424A33D326DE60FD0017C117 /* pewag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pewag.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		424A33D626DE60FD0017C117 /* pewagApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pewagApp.swift; sourceTree = "<group>"; };
 		424A33D826DE60FD0017C117 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -37,7 +58,11 @@
 		42722F102713367F006490B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		427496B326EA7E0000C1907C /* Webservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
 		427496B526EA862200C1907C /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		4281117E273D44C2002A2849 /* CodeScanningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeScanningView.swift; sourceTree = "<group>"; };
 		42A8600426F8FC05007BE025 /* LogFull.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogFull.swift; sourceTree = "<group>"; };
+		42E9B152272AC73C005DD1DE /* sr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sr; path = sr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		42E9B154272AC740005DD1DE /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		42E9B155272AC741005DD1DE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4281117D273D3B1E002A2849 /* CodeScanner in Frameworks */,
 				42722F0D2713206A006490B0 /* FacebookLogin in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -52,6 +78,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		422DA1C32731841D00EC5359 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				422DA1C02731832A00EC5359 /* ModelResponse.swift */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		42390FF52726E65C00A52804 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4220FDEB26EE624E00479EC7 /* LogInView.swift */,
+				424A33D826DE60FD0017C117 /* ContentView.swift */,
+				4220FDED26EE67FB00479EC7 /* LogOutView.swift */,
+				42104AD0273AA08100A9ECD2 /* OrdersDetailView.swift */,
+				42104AD2273AA94300A9ECD2 /* CertificatesDetailView.swift */,
+				4281117E273D44C2002A2849 /* CodeScanningView.swift */,
+				42104ACE273A99AA00A9ECD2 /* CustomersDetailView.swift */,
+				42104AD4273AB42800A9ECD2 /* AssCertificatesDetailView.swift */,
+				4243B63227351C8D00C952ED /* CompanyDetailView.swift */,
+				42390FF62726E71700A52804 /* Home.swift */,
+				42E9B153272AC73C005DD1DE /* Localizable.strings */,
+				42390FF82726E77200A52804 /* SideMenu.swift */,
+				42390FFA2726E7B100A52804 /* BaseView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		424A33CA26DE60FD0017C117 = {
 			isa = PBXGroup;
 			children = (
@@ -72,12 +126,10 @@
 		424A33D526DE60FD0017C117 /* pewag */ = {
 			isa = PBXGroup;
 			children = (
+				42390FF52726E65C00A52804 /* View */,
 				424A33D626DE60FD0017C117 /* pewagApp.swift */,
-				4220FDED26EE67FB00479EC7 /* LogOutView.swift */,
 				42A8600426F8FC05007BE025 /* LogFull.swift */,
-				424A33D826DE60FD0017C117 /* ContentView.swift */,
 				4220FDF026EF70EB00479EC7 /* PBKDF2.swift */,
-				4220FDEB26EE624E00479EC7 /* LogInView.swift */,
 				427496B526EA862200C1907C /* LoginViewModel.swift */,
 				427496B326EA7E0000C1907C /* Webservice.swift */,
 				4220FDEF26EF704600479EC7 /* PBKDF2-Bridging-Header.h */,
@@ -86,6 +138,7 @@
 				424A33DC26DE60FE0017C117 /* Preview Content */,
 				42722F102713367F006490B0 /* AppDelegate.swift */,
 				420C942327184401005F82C9 /* NavigationBarView.swift */,
+				422DA1C32731841D00EC5359 /* New Group */,
 			);
 			path = pewag;
 			sourceTree = "<group>";
@@ -123,6 +176,7 @@
 			name = pewag;
 			packageProductDependencies = (
 				42722F0C2713206A006490B0 /* FacebookLogin */,
+				4281117C273D3B1E002A2849 /* CodeScanner */,
 			);
 			productName = pewag;
 			productReference = 424A33D326DE60FD0017C117 /* pewag.app */;
@@ -149,10 +203,13 @@
 			knownRegions = (
 				en,
 				Base,
+				de,
+				sr,
 			);
 			mainGroup = 424A33CA26DE60FD0017C117;
 			packageReferences = (
 				42722EE3271053E4006490B0 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */,
+				4281117B273D3B1D002A2849 /* XCRemoteSwiftPackageReference "CodeScanner" */,
 			);
 			productRefGroup = 424A33D426DE60FD0017C117 /* Products */;
 			projectDirPath = "";
@@ -169,6 +226,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				424A33DE26DE60FE0017C117 /* Preview Assets.xcassets in Resources */,
+				42E9B151272AC73C005DD1DE /* Localizable.strings in Resources */,
 				424A33DB26DE60FE0017C117 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -181,19 +239,42 @@
 			buildActionMask = 2147483647;
 			files = (
 				42A8600526F8FC05007BE025 /* LogFull.swift in Sources */,
+				42390FFB2726E7B100A52804 /* BaseView.swift in Sources */,
 				4220FDEC26EE624E00479EC7 /* LogInView.swift in Sources */,
 				420C942427184401005F82C9 /* NavigationBarView.swift in Sources */,
+				42390FF92726E77200A52804 /* SideMenu.swift in Sources */,
+				42390FF72726E71700A52804 /* Home.swift in Sources */,
+				42104AD1273AA08100A9ECD2 /* OrdersDetailView.swift in Sources */,
+				42104AD5273AB42800A9ECD2 /* AssCertificatesDetailView.swift in Sources */,
+				422DA1C12731832A00EC5359 /* ModelResponse.swift in Sources */,
+				42104ACF273A99AA00A9ECD2 /* CustomersDetailView.swift in Sources */,
 				427496B626EA862200C1907C /* LoginViewModel.swift in Sources */,
 				42722F112713367F006490B0 /* AppDelegate.swift in Sources */,
 				4220FDEE26EE67FB00479EC7 /* LogOutView.swift in Sources */,
 				424A33D926DE60FD0017C117 /* ContentView.swift in Sources */,
 				424A33D726DE60FD0017C117 /* pewagApp.swift in Sources */,
 				427496B426EA7E0000C1907C /* Webservice.swift in Sources */,
+				4281117F273D44C2002A2849 /* CodeScanningView.swift in Sources */,
+				42104AD3273AA94300A9ECD2 /* CertificatesDetailView.swift in Sources */,
+				4243B63327351C8D00C952ED /* CompanyDetailView.swift in Sources */,
 				4220FDF126EF70EB00479EC7 /* PBKDF2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		42E9B153272AC73C005DD1DE /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42E9B152272AC73C005DD1DE /* sr */,
+				42E9B154272AC740005DD1DE /* de */,
+				42E9B155272AC741005DD1DE /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		424A33E026DE60FE0017C117 /* Debug */ = {
@@ -390,6 +471,14 @@
 				minimumVersion = 9.0.0;
 			};
 		};
+		4281117B273D3B1D002A2849 /* XCRemoteSwiftPackageReference "CodeScanner" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/twostraws/CodeScanner.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -397,6 +486,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 42722EE3271053E4006490B0 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
 			productName = FacebookLogin;
+		};
+		4281117C273D3B1E002A2849 /* CodeScanner */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4281117B273D3B1D002A2849 /* XCRemoteSwiftPackageReference "CodeScanner" */;
+			productName = CodeScanner;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

@@ -4,7 +4,7 @@ import SwiftUI
 
 struct NavigationBarView: View {
     //MARK: PROPERTIES
-    @StateObject private var loginVM = LogFull()
+    //@StateObject private var loginVM = LogFull()
     //MARK: - BODY
     var body: some View {
         
@@ -16,10 +16,10 @@ struct NavigationBarView: View {
                     .scaledToFit()
                     .frame(width: 100, height: 50, alignment: .center)
                     .padding(.horizontal)
-                TextField("Search...", text: $loginVM.username)
-                    .background(Color(red: 0.74, green: 0.74, blue: 0.74))
-                    .clipShape(Capsule())
-                    .frame(width: 120, height: 40)
+//                TextField("Search...", text: $loginVM.username)
+//                    .background(Color(red: 0.74, green: 0.74, blue: 0.74))
+//                    .clipShape(Capsule())
+//                    .frame(width: 120, height: 40)
             }//: HSTACK
             Spacer()
             VStack {

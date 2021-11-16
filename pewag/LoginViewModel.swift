@@ -12,7 +12,6 @@ class LoginViewModel : ObservableObject {
     func log(){
         
         let defaults = UserDefaults.standard
-        
         Webservice().login(username: username, password: password, device: device) { result in
             switch result {
             case .success(let token):
@@ -21,6 +20,7 @@ class LoginViewModel : ObservableObject {
                     print("Bearer " + token)
                     self.isAuthenticated = true
                 }
+                
             case .failure(let error):
                 print(error.localizedDescription)
             }

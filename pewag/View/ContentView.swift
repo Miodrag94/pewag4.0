@@ -6,10 +6,11 @@ struct ContentView: View {
     
     var body: some View {
         NavigationView{
-                LogInView()
-                    .offset(y: -30)
-                LogOutView()
-                    .offset(y: -30)
+            LogInView()
+                .offset(y: -30)
+            LogOutView()
+                .offset(y: -30)
+                .navigationBarHidden(true)
         }
         
     }

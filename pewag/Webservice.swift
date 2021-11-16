@@ -1,6 +1,7 @@
 
 
 import Foundation
+import SwiftUI
 
 enum AuthenticationError : Error {
     case invalidCredentials
@@ -17,7 +18,9 @@ struct LoginResponse: Codable {
     let token : String?
 }
 
-class Webservice {
+class Webservice : ObservableObject {
+    
+    
     
     func login(username: String, password: String, device: String, completion: @escaping (Result<String, AuthenticationError>) -> Void) {
         
@@ -48,7 +51,6 @@ class Webservice {
                 completion(.failure(.invalidCredentials))
                 return
             }
-            
             completion(.success(token))
             
         }.resume()
